@@ -8,6 +8,7 @@ body {
 
 h1 {
   font-size: 3rem;
+  display: inline-block;
 }
 
 h2 {
@@ -22,6 +23,7 @@ a, a:hover, a:focus, a:active {
 .div-button {
   background-color: rgba(10, 10, 10, 0.1);
   padding: 0.5rem 1rem;
+  margin: 1.5rem;
   font-size: 1.5rem;
   display: inline-block;  /*size fits exactly to text*/
 
@@ -42,15 +44,25 @@ a, a:hover, a:focus, a:active {
 
 .headliner {
   padding: 2rem;
-  margin-bottom: 1rem;
+  margin: 1rem;
   /*box-shadow: 3px 3px rgba(10, 10, 10, 0.05);*/
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   background-color: rgba(10, 10, 10, 0.1);
+
+  vertical-align: middle;
 }
 
 .image-holder {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 2rem;
+  background-color: rgba(10, 10, 10, 0.05);
+}
+
+.light-grey-centered {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -62,4 +74,14 @@ a, a:hover, a:focus, a:active {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+}
+
+.margin-sm {
+  margin: 1rem;
+}
+.margin-md {
+  margin: 2rem;
+}
+.margin-lg {
+  margin: 3rem;
 }
