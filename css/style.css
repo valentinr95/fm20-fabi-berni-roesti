@@ -85,3 +85,28 @@ a, a:hover, a:focus, a:active {
 .margin-lg {
   margin: 3rem;
 }
+
+.grid2x2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  align-items: center;
+}
+
+.grid2x2 > div > h3 {
+  font-size: 1.7rem;
+}
+
+.bl-table {
+  grid-column: 1;
+  grid-row: 1 / 3;
+}
+.cl-table {
+  grid-column: 2;
+  grid-row: 1;
+}
+.el-table {
+  grid-column: 2;
+  grid-row: 2;
+}
