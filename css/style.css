@@ -124,6 +124,7 @@ a, a:hover, a:focus, a:active {
 }
 
 .table-image {
+  width: 85%;
 }
 
 @media (orientation: portrait) {
