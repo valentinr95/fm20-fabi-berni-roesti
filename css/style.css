@@ -158,8 +158,12 @@ a, a:hover, a:focus, a:active {
     grid-row: 3;
     grid-column: 1;
   }
-  .bl-stats-table {
+  .dfb-table {
     grid-row: 4;
+    grid-column: 1;
+  }
+  .bl-stats-table {
+    grid-row: 5;
     grid-column: 1;
   }
 
