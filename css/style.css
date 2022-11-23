@@ -119,8 +119,11 @@ a, a:hover, a:focus, a:active {
 .el-table {
   grid-area: 2 / 2 / 3 / 4;
 }
-.bl-stats-table {
+.dfb-table {
   grid-area: 3 / 1 / 4 / 4;
+}
+.bl-stats-table {
+  grid-area: 4 / 1 / 4 / 4;
 }
 
 .table-image {
