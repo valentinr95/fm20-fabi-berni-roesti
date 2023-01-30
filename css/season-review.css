@@ -1,0 +1,31 @@
+.row {
+  width: 100%
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+}
+
+.entry-50 {
+  flex:0 1 calc(50% - 10px);
+  margin: 5px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+.space-around {
+  justify-content: space-around;
+}
+
+.wrap{
+  flex-wrap: wrap;
+}
