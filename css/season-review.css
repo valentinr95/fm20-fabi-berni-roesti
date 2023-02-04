@@ -1,8 +1,48 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  display: inline-block;
+}
+.roseish-bg > * {
+  color: #A7BBC7;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+a, a:hover, a:focus, a:active {
+     text-decoration: none;
+     color: inherit;
+ }
+
+ .headliner {
+   padding: 2rem;
+   /*box-shadow: 3px 3px rgba(10, 10, 10, 0.05);*/
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   background-color: #E1E5EA;
+
+   vertical-align: middle;
+ }
+
 .row {
   width: 100%
   flex-wrap: wrap;
   display: flex;
   flex-direction: row;
+}
+
+.flex {
+  display: flex;
 }
 
 .entry-50 {
@@ -11,12 +51,15 @@
 }
 
 .column {
+  width: 100%
+  flex-wrap: wrap;
   display: flex;
   flex-direction: column;
 }
 
 .center {
   align-items: center;
+  justify-content: center;
 }
 
 .space-between {
@@ -28,4 +71,32 @@
 
 .wrap{
   flex-wrap: wrap;
+}
+
+.padding-small {
+  padding: 2rem;
+}
+
+.light-grey-centered {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: #E1E5EA;
+}
+
+.light-grey-bg {
+  background-color: #E1E5EA;
+}
+
+.roseish-bg {
+  background-color: #FAF3F3;
+}
+
+@media (orientation: portrait) {
+  .row {
+    width: 80%
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+  }
 }
